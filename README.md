@@ -1,6 +1,9 @@
 # Suggest Payment Terms with AI
 As you have probably noticed, Business Central is actively integrating AI and providing developer tools for working with large language models. One of these tools is the new page type PromptDialog. I suggest exploring this page type along with the new AI interfaces using simple example: create Copilot for generating Payment Terms records.
 
+![image](https://github.com/user-attachments/assets/989f35d2-26c5-4e39-8cd6-fed026f46377)
+
+
 https://vld-bc.com/blog/ai-prompt-pages-in-bc
 
 ---

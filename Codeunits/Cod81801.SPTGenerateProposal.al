@@ -38,9 +38,6 @@ codeunit 81801 "SPT Generate Proposal"
 
         AzureOpenAI.SetCopilotCapability(Enum::"Copilot Capability"::"SPT Suggest Payment Terms");
 
-        AOAIChatCompletionParams.SetMaxTokens(2500);
-        AOAIChatCompletionParams.SetTemperature(0);
-
         AOAIChatMessages.AddSystemMessage(GetSystemPrompt());
         AOAIChatMessages.AddUserMessage(UserPrompt);
 

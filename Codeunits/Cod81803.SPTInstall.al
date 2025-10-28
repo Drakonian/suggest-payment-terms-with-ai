@@ -16,6 +16,6 @@ codeunit 81803 "SPT Install"
         LearnMoreUrlTxt: Label 'https://vld-bc.com/blog/ai-prompt-pages-in-bc', Locked = true;
     begin
         if not CopilotCapability.IsCapabilityRegistered(Enum::"Copilot Capability"::"SPT Suggest Payment Terms") then
-            CopilotCapability.RegisterCapability(Enum::"Copilot Capability"::"SPT Suggest Payment Terms", Enum::"Copilot Availability"::Preview, LearnMoreUrlTxt);
+            CopilotCapability.RegisterCapability(Enum::"Copilot Capability"::"SPT Suggest Payment Terms", Enum::"Copilot Availability"::Preview, Enum::"Copilot Billing Type"::"Custom Billed", LearnMoreUrlTxt);
     end;
 }

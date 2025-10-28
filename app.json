@@ -12,8 +12,8 @@
   "logo": "./logo.png",
   "dependencies": [],
   "screenshots": [],
-  "platform": "25.0.0.0",
-  "application": "25.0.0.0",
+  "platform": "27.0.0.0",
+  "application": "27.0.0.0",
   "idRanges": [
     {
       "from": 81801,
@@ -21,7 +21,7 @@
     }
   ],
   "contextSensitiveHelpUrl": "https://vld-bc.com/",
-  "runtime": "14.0",
+  "runtime": "16.0",
   "features": ["TranslationFile"],
   "resourceExposurePolicy":
     {
